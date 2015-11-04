@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	  <head>
+		    <meta charset="utf-8" />
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		    <title>Goo Goods Finder</title>
+		    <link rel="stylesheet" href="stylesheets/app.css" />
+		    <script src="bower_components/modernizr/modernizr.js"></script>
+	  </head>
+	  <body style="font-size:1.15em;font-family:century gothic">
+
+	  		
+	  		<div class="sticky">
+	  			<nav class="top-bar" data-topbar role="navigation">
+					  <section class="top-bar-section">
+					    <!-- Right Nav Section -->
+					    <ul class="right">
+					      <li class="active"><a href="#">About Us</a></li>
+					      <li class="active"><a href="#">Join Us</a></li>
+
+					      <li class="has-form">
+								  <div class="row collapse">
+									    <div class="large-12 small-12 columns">
+									      <input style="border-radius:10px" type="text" placeholder="Find Stuff">
+									    </div>
+								  </div>
+							</li>
+
+					     
+					    </ul>
+					    <!-- Left Nav Section -->
+					    <ul class="left">
+					      <li class="has-dropdown active">
+						        <a href="#">Brands</a>
+						        <ul class="dropdown">
+							          <li class="active"><a href="#">Beverages</a></li>
+							          <li class="active"><a href="#">Food</a></li>
+							          <li class="active"><a href="#">Clothes</a></li>
+							          <li class="active"><a href="#">Technology</a></li>
+						        </ul>
+					      </li>
+					      <li class="has-dropdown active">
+						        <a href="#">Categories</a>
+						        <ul class="dropdown">
+							          <li class="active"><a href="#">Beverages</a></li>
+							          <li class="active"><a href="#">Food</a></li>
+							          <li class="active"><a href="#">Clothes</a></li>
+							          <li class="active"><a href="#">Technology</a></li>
+						        </ul>
+					      </li>
+					      <li class="active"><a href="#">Stores</a></li>
+					    </ul>
+					  </section>
+				</nav>
+
+	  		</div>
+	  		
+			<div style="position:fixed; width:50px; height:50px; top:0%; left:45%; background-color:#00abbd; padding:5px">
+				<img src="img/ggflogo_wIcon.png">
+			</div>
+	  		
+	  		
+	  		<div id="map" style="height:450px; width:100%"></div>
+
+	  		<br>
+	  		<div class="row">
+	  			<div class="small-12 large-12 columns" style="border:1px solid grey; padding: 25px">
+
+	  				<div class="small-2 large-2 columns">
+	  					<div style="background-color:#00abbd; padding:10px"><img src="img/ggflogo_w.png"></div>
+	  					
+	  				</div>
+	  				<div class="small-8 large-8 columns">
+	  					<h2> Coffee </h2>
+	  					<p> Fair trade coffee from the peruvian mountains. Slow-roasted and rich in cultural flavors. This coffee has been farmed in Peru for more than 2000 years. It has a rich history that dates back to Mayan times and touches on diverse topics such as monkeys and monkey gold. </p>
+	  				</div>
+	  				<div class="small-2 large-2 columns">
+	  					<h4>$3.50</h4>
+	  					<br>
+	  					<p>
+	  						@MTH
+	  					</p>
+	  				</div>
+	  				
+	  			</div>
+	  		</div>
+
+	  		<br>
+	  		<div class="row">
+	  			<div class="small-12 large-12 columns" style="border:1px solid grey; padding: 25px">
+
+	  				<div class="small-2 large-2 columns">
+	  					<div style="background-color:#00abbd; padding:10px"><img src="img/ggflogo_w.png"></div>
+	  					
+	  				</div>
+	  				<div class="small-8 large-8 columns">
+	  					<h2> Coffee </h2>
+	  					<p> Fair trade coffee from the peruvian mountains. Slow-roasted and rich in cultural flavors. This coffee has been farmed in Peru for more than 2000 years. It has a rich history that dates back to Mayan times and touches on diverse topics such as monkeys and monkey gold. </p>
+	  				</div>
+	  				<div class="small-2 large-2 columns">
+	  					<h4>$3.50</h4>
+	  					<br>
+	  					<p>
+	  						@MTH
+	  					</p>
+	  				</div>
+	  				
+	  			</div>
+	  		</div>
+
+	  		<br>
+	  		<div class="row">
+	  			<div class="small-12 large-12 columns" style="border:1px solid grey; padding: 25px">
+
+	  				<div class="small-2 large-2 columns">
+	  					<div style="background-color:#00abbd; padding:10px"><img src="img/ggflogo_w.png"></div>
+	  					
+	  				</div>
+	  				<div class="small-8 large-8 columns">
+	  					<h2> Coffee </h2>
+	  					<p> Fair trade coffee from the peruvian mountains. Slow-roasted and rich in cultural flavors. This coffee has been farmed in Peru for more than 2000 years. It has a rich history that dates back to Mayan times and touches on diverse topics such as monkeys and monkey gold. </p>
+	  				</div>
+	  				<div class="small-2 large-2 columns">
+	  					<h4>$3.50</h4>
+	  					<br>
+	  					<p>
+	  						@MTH
+	  					</p>
+	  				</div>
+	  				
+	  			</div>
+	  		</div>
+
+
+	  		<script>
+				var map;
+				function initMap() {
+				  map = new google.maps.Map(document.getElementById('map'), {
+				    center: {lat: -34.397, lng: 150.644},
+				    zoom: 8,
+				    disableDefaultUI: true,
+				  });
+				}
+
+			</script>
+
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7IxhD_OhaRuXz8cuOvUu6tJ8ItPM40Zw&callback=initMap"async defer></script>
+
+
+	  </body>
+</html>
